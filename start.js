@@ -1,11 +1,11 @@
 import { randomGenerateColor } from "./helper/randomGenerateColor.js";
 import { createNewBall } from "./htmlElements/createNewBall.js";
 import { countBallPlace } from "./helper/countBallPlace.js";
+import { countBallPoint } from "./helper/countBallPoint.js";
 import { goToBottom } from "./direction/goToBottom.js";
 import { countTimer } from "./helper/countTimer.js";
 import { colors, finalTime } from "./constants.js";
 import { end } from "./end.js";
-import { countBallPoint } from "./helper/countBallPoint.js";
 
 export const start = () => {
     console.log("start");
@@ -30,5 +30,5 @@ export const start = () => {
         clearInterval(timerId);
         clearInterval(dynamicBallCreatorId);
         clearInterval(ballGenerationIntervalId);
-    }, 1);
+    }, finalTime);
 };
