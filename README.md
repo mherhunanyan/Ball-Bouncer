@@ -1,4 +1,4 @@
-[ball bouncer video](./assets/ball-bounce-video.mp4)
+https://github.com/mherhunanyan/ball-bouncer/assets/129987040/30fc671d-cc6e-4dc7-9861-573eda95df61
 
 # Ball Bouncer Game
 
