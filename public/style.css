@@ -1,0 +1,70 @@
+body {
+    background-color: #f7f8f9;
+}
+
+.container {
+    display: flex;
+    gap: 150px;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.card {
+    display: flex;
+    background-image: url("../public/playground.jpg");
+    margin-left: 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.board {
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+    background-color: burlywood;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    outline: none;
+}
+
+.ball {
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer-points-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.timer {
+    display: flex;
+    font-size: 40px;
+    color: chartreuse;
+}
+
+.points {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: bisque;
+}
+
+.userStatus {
+    font-size: 20px;
+}
+
+.newGame {
+    color: chocolate;
+    font-size: 14px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 30px;
+}
